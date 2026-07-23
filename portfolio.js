@@ -11,7 +11,8 @@ const portfolioPages = [
         y: 18,
         width: 38,
         height: 24,
-        autoplay: false
+        zIndex: 1,
+        autoplay: true
       }
     ]
   }
@@ -22,7 +23,18 @@ const portfolioPages = [
   },
   {
     image: "assets/pages/26-07-01 Portfolio2.png",
-    alt: "Portfolio page 2"
+    alt: "Portfolio page 2",
+    videos: [
+      {
+        src: "assets/videos/Demoset long.mp4",
+        x: 0,
+        y: 0,
+        width: 100,
+        height: 100,
+        zIndex: 1,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio3.png",
@@ -42,19 +54,60 @@ const portfolioPages = [
   },
   {
     image: "assets/pages/26-07-01 Portfolio7.png",
-    alt: "Portfolio page 7"
+    alt: "Portfolio page 7",
+    videos: [
+      {
+        src: "assets/videos/MOV_0412.mp4",
+        x: .70,
+        y: 12.5,
+        width: 75.15,
+        height: 75.2,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio8.png",
-    alt: "Portfolio page 8"
+    alt: "Portfolio page 8",
+    videos: [
+      {
+        src: "assets/videos/New battery temp test.mp4",
+        x: .70,
+        y: 12.5,
+        width: 75.15,
+        height: 75.2,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio9.png",
-    alt: "Portfolio page 9"
+    alt: "Portfolio page 9",
+    videos: [
+      {
+        src: "assets/videos/etee adapter.mp4",
+        x: 40.5,
+        y: 32.4,
+        width: 35.25,
+        height: 35.25,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio10.png",
-    alt: "Portfolio page 10"
+    alt: "Portfolio page 10",
+    videos: [
+      {
+        src: "assets/videos/Station 2 extended X-Base.mov",
+        x: .70,
+        y: 12.5,
+        width: 75.15,
+        height: 75.2,
+        zIndex: 1,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio11.png",
@@ -62,19 +115,128 @@ const portfolioPages = [
   },
   {
     image: "assets/pages/26-07-01 Portfolio12.png",
-    alt: "Portfolio page 12"
+    alt: "Portfolio page 12",
+    videos: [
+      {
+        src: "assets/videos/11062021_algorithm 1 VS algorithm 2.mp4",
+        x: 0,
+        y: 0,
+        width: 100,
+        height: 100,
+        zIndex: 1,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio13.png",
-    alt: "Portfolio page 13"
+    alt: "Portfolio page 13",
+    videos: [
+      {
+        src: "assets/videos/2021-05-23 21-30-13.mp4",
+        x: 44.65,
+        y: 9.5,
+        width: 31.1,
+        height: 44.4,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio14.png",
-    alt: "Portfolio page 14"
+    alt: "Portfolio page 14",
+    videos: [
+      {
+        src: "assets/videos/Tello drone control steps.mp4",
+        x: 38.75,
+        y: 12.2,
+        width: 37,
+        height: 37.1,
+        autoplay: true
+      }, 
+      {
+        src: "assets/videos/etee moondust.mp4",
+        x: 38.75,
+        y: 51.1,
+        width: 37,
+        height: 37,
+        autoplay: true
+      }
+    ]
   },
   {
     image: "assets/pages/26-07-01 Portfolio15.png",
-    alt: "Portfolio page 15"
+    alt: "Portfolio page 15",
+    videos: [
+      {
+        src: "assets/videos/MOV_CINEMA_CLIP_012_20230602105443303.mp4",
+        x: .70,
+        y: 12.5,
+        width: 75.15,
+        height: 75.2,
+        autoplay: true
+      }
+    ]
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio16.png",
+    alt: "Portfolio page 16"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio17.png",
+    alt: "Portfolio page 17"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio18.png",
+    alt: "Portfolio page 18"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio19.png",
+    alt: "Portfolio page 19"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio20.png",
+    alt: "Portfolio page 20"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio21.png",
+    alt: "Portfolio page 21"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio22.png",
+    alt: "Portfolio page 22"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio23.png",
+    alt: "Portfolio page 23"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio24.png",
+    alt: "Portfolio page 24"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio25.png",
+    alt: "Portfolio page 25"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio26.png",
+    alt: "Portfolio page 26"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio27.png",
+    alt: "Portfolio page 27"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio28.png",
+    alt: "Portfolio page 28"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio29.png",
+    alt: "Portfolio page 29"
+  },
+  {
+    image: "assets/pages/26-07-01 Portfolio30.png",
+    alt: "Portfolio page 30"
   }
 ];
 
@@ -95,6 +257,7 @@ function createVideo(video) {
   element.style.setProperty("--video-y", toPercent(video.y));
   element.style.setProperty("--video-width", toPercent(video.width));
   element.style.setProperty("--video-height", toPercent(video.height));
+  element.style.setProperty("--video-z-index", video.zIndex ?? 3);
 
   if (video.autoplay) {
     element.autoplay = true;
