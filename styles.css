@@ -190,7 +190,10 @@ h1 {
 
 .portfolio-page img {
   display: block;
+  position: relative;
+  pointer-events: none;
   width: 100%;
+  z-index: 2;
 }
 
 .video-layer {
@@ -202,6 +205,7 @@ h1 {
   position: absolute;
   top: var(--video-y);
   width: var(--video-width);
+  z-index: var(--video-z-index, 1);
 }
 
 .empty-state {
