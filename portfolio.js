@@ -104,7 +104,6 @@ const portfolioPages = [
         y: 12.5,
         width: 75.15,
         height: 75.2,
-        zIndex: 1,
         autoplay: true
       }
     ]
