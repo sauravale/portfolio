@@ -241,15 +241,30 @@ const portfolioPages = [
 ];
 
 const container = document.querySelector("#portfolioPages");
+const gitLfsMediaBase =
+  "https://github.com/sauravale/portfolio/raw/refs/heads/main/";
 
 function toPercent(value) {
   return `${value}%`;
 }
 
+function resolveVideoSource(source) {
+  if (!source.startsWith("assets/videos/")) {
+    return source;
+  }
+
+  const encodedPath = source
+    .split("/")
+    .map((segment) => encodeURIComponent(segment))
+    .join("/");
+
+  return `${gitLfsMediaBase}${encodedPath}`;
+}
+
 function createVideo(video) {
   const element = document.createElement("video");
   element.className = "video-layer";
-  element.src = video.src;
+  element.src = resolveVideoSource(video.src);
   element.controls = true;
   element.playsInline = true;
   element.preload = "metadata";
